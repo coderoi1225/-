@@ -1,0 +1,43 @@
+{
+  "version": "2.1",
+  "purpose": "external-review",
+  "packaging": "Flat static files; only logo paths in branding.js adjusted",
+  "files": [
+    {
+      "file": "index.html",
+      "sha256": "2228f0a6f27df2279b09b2123905cb50d9c80f67ecaf7fbc61087c3ae5b902d9"
+    },
+    {
+      "file": "styles.css",
+      "sha256": "c75d0e8c913d7f4176d131edbd2fd4266052e5a0a9ce19de2e9e249102cb97e8"
+    },
+    {
+      "file": "data.js",
+      "sha256": "d197d083e123eda6c3307c5c9f8b73e12b5696d9a6501fe62815500da3cce516"
+    },
+    {
+      "file": "majors.js",
+      "sha256": "86c21898d4bd90aaaa27b760bccfef04f83bbea1304949a62990e250639ee8d4"
+    },
+    {
+      "file": "logic.js",
+      "sha256": "e1cf6686d2cebafc5f8d2c084a8a5a12d1909f5d440faf292686ebd4a1684dcc"
+    },
+    {
+      "file": "branding.js",
+      "sha256": "e9fe537546e09496a5cf94266594ddc8c15c710e6951df385ecb8a70ac186249"
+    },
+    {
+      "file": "app.js",
+      "sha256": "a26a3b23e86ed1e0766d2eaa9c1ec4503763e45506aed02520483f44bbed56d4"
+    },
+    {
+      "file": "university-innovation.png",
+      "sha256": "e56a3b1e32a811927fdc078224c86d3f54c03e7f04d3892fdc5dc0be624b7589"
+    },
+    {
+      "file": "college-innovation-korean-centered.png",
+      "sha256": "20035e9a507d235d9b79891c35696248c2c8b1c7707bf4a24192c8b2482d98e6"
+    }
+  ]
+}
