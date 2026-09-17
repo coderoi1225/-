@@ -1,0 +1,13 @@
+/* Naming and the final-answer confirmation screen. */
+#intro-title{font-size:clamp(38px,11.8vw,65px);line-height:1.28;letter-spacing:-.065em}
+#intro-title span{-webkit-text-stroke-width:7px;text-shadow:0 7px 0 #43188d,3px 10px 0 #45199255}
+.site-header .wordmark{font-size:1.05rem;letter-spacing:-.025em}
+.ready-layout{max-width:640px;margin:0 auto;min-height:calc(100svh - 230px);display:flex;flex-direction:column}
+.ready-layout>#ready-previous{align-self:flex-start;text-decoration:none;padding:8px 0}
+.ready-content{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:36px 0 56px}
+.ready-symbol{width:78px;height:78px;display:grid;place-items:center;border-radius:50%;background:#253515;color:var(--lime);font-size:40px;font-weight:800;margin-bottom:28px}
+.ready-content .eyebrow{font-size:.9rem;margin-bottom:16px}
+.ready-content h1{font-size:clamp(1.5rem,5.8vw,2.4rem);line-height:1.5;letter-spacing:-.04em;margin:0 0 36px}
+.ready-content .primary{width:100%;max-width:420px;justify-content:space-between;min-height:60px}
+@media(max-width:360px){#intro-title{font-size:37px}.site-header .wordmark{font-size:.95rem}.ready-content{padding-top:24px}.ready-symbol{width:64px;height:64px;font-size:34px}}
+@media(orientation:landscape) and (max-height:500px){.ready-content{padding:12px 0 24px}.ready-symbol{display:none}.ready-content h1{margin-bottom:20px;font-size:1.6rem}}

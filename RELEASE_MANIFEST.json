@@ -1,35 +1,52 @@
 {
   "version": "2.1",
-  "purpose": "external-review",
-  "packaging": "Flat static files; only logo paths in branding.js adjusted",
+  "releaseId": "v2.1-client-20260917",
+  "purpose": "client-review",
+  "packaging": "Versioned runtime assets; previous runtime assets retained for compatibility",
   "files": [
     {
       "file": "index.html",
-      "sha256": "2228f0a6f27df2279b09b2123905cb50d9c80f67ecaf7fbc61087c3ae5b902d9"
+      "sha256": "35fb56de6ee3d3800f197c71a0b0239db315b83a3f1ac98a04b88eb5654f0e12"
     },
     {
-      "file": "styles.css",
+      "file": "styles.20260917.css",
       "sha256": "c75d0e8c913d7f4176d131edbd2fd4266052e5a0a9ce19de2e9e249102cb97e8"
     },
     {
-      "file": "data.js",
+      "file": "intro-review.20260917.css",
+      "sha256": "24fc18e75d6ef4ea7e852bdf8d19f19659b64da16bbf7dd682a7b6d247d7af70"
+    },
+    {
+      "file": "flow-review.20260917.css",
+      "sha256": "1bd28e9811870ea3e1f854d3b9a814d79ad8c9ab0d249538249096ad7fd3ad77"
+    },
+    {
+      "file": "icons-review.20260917.css",
+      "sha256": "1ad0fd64929dedc1c1633ba9d099001be7d5ff3d35aeb0edc5ec25bc0b73eb06"
+    },
+    {
+      "file": "data.20260917.js",
       "sha256": "d197d083e123eda6c3307c5c9f8b73e12b5696d9a6501fe62815500da3cce516"
     },
     {
-      "file": "majors.js",
+      "file": "majors.20260917.js",
       "sha256": "86c21898d4bd90aaaa27b760bccfef04f83bbea1304949a62990e250639ee8d4"
     },
     {
-      "file": "logic.js",
+      "file": "logic.20260917.js",
       "sha256": "e1cf6686d2cebafc5f8d2c084a8a5a12d1909f5d440faf292686ebd4a1684dcc"
     },
     {
-      "file": "branding.js",
-      "sha256": "e9fe537546e09496a5cf94266594ddc8c15c710e6951df385ecb8a70ac186249"
+      "file": "branding.20260917.js",
+      "sha256": "341fbb6b8c5625903e730147e852f64a58a32de070d606743629de80d81706c4"
     },
     {
-      "file": "app.js",
-      "sha256": "a26a3b23e86ed1e0766d2eaa9c1ec4503763e45506aed02520483f44bbed56d4"
+      "file": "major-icons.20260917.js",
+      "sha256": "661ff2fc888f0ace9182e9dd437531f2a33cb037e0e91eb0e10f6ecaa7f10322"
+    },
+    {
+      "file": "app.20260917.js",
+      "sha256": "1b1c3cd692515baae3f92bd4c93b4311e48b90db01ffbf792bc9449e9f0fbd39"
     },
     {
       "file": "university-innovation.png",

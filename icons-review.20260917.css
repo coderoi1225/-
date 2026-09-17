@@ -1,0 +1,27 @@
+/* Shared line-art style, using existing local SVG symbols. */
+.line-icon{display:block;width:28px;height:28px;fill:none;stroke:currentColor;stroke-width:1.75;stroke-linecap:round;stroke-linejoin:round}
+.event-icon{display:grid;place-items:center;width:50px;height:50px;border-radius:16px;background:linear-gradient(145deg,#b595ff,#7f4cec);color:#edffb2;border:1px solid #d3beff99;box-shadow:0 5px 0 #431c9b55;filter:none}
+.event-icon .line-icon{width:31px;height:31px;stroke-width:1.7}
+.intro-subjects{display:flex;justify-content:center;gap:12px;margin:0 0 24px;pointer-events:none}
+.intro-subjects>span{display:grid;place-items:center;width:39px;height:39px;background:#d1baff25;border:1px solid #dacaff55;color:#edffc3;border-radius:12px}
+.intro-subjects>span:nth-child(2n){transform:rotate(7deg);color:#fff}.intro-subjects>span:nth-child(2n+1){transform:rotate(-5deg)}
+.intro-subjects .line-icon{width:24px;height:24px}
+.event-swish{margin-bottom:21px}.event-description{margin-bottom:28px}
+.major-icon{display:grid;place-items:center;flex:0 0 48px;width:48px;height:48px;background:#2e2146;color:#d4baff;border:1px solid #564075;border-radius:15px;margin-bottom:17px}
+.major-icon .line-icon{width:29px;height:29px}
+.major-icon[data-field="의약"],.major-icon[data-field="교육"]{background:#29371d;color:#d7ff90;border-color:#4a6033}
+.major-icon[data-field="자연"],.major-icon[data-field="서비스"]{background:#253135;color:#b9e1d7;border-color:#41575b}
+.major-card:hover .major-icon{border-color:currentColor}
+.major-dialog-heading{display:flex;align-items:center;gap:16px;margin:18px 0}
+.major-dialog-heading .major-icon{margin:0;width:60px;height:60px;border-radius:18px}.major-dialog-heading .line-icon{width:36px;height:36px}
+/* Logos replace the former footer wording on all screens. */
+.partner-footer{display:flex;justify-content:space-between;align-items:center;gap:24px;padding:16px 32px;min-height:58px}
+.partner-footer img{display:block;width:124px;height:26px;object-fit:contain;background:#fff;border-radius:4px;padding:4px 6px;max-width:calc(50% - 12px)}
+body.intro-active #app{min-height:0;padding-bottom:0}
+body.intro-active #intro{min-height:calc(100svh - 58px);border-bottom-left-radius:0;border-bottom-right-radius:0}
+body.intro-active .partner-footer{display:flex;max-width:520px;min-height:58px;margin:0 auto;background:#fff;border:0;padding:16px 22px;border-radius:0 0 28px 28px}
+body.intro-active .partner-footer img{padding:0;height:23px;width:124px;border-radius:0}
+@media(min-width:700px){body.intro-active #intro{min-height:780px}body.intro-active .partner-footer{margin-bottom:32px}}
+@media(max-width:699px){.partner-footer{padding:14px 18px}.partner-footer img{width:116px;height:25px}body.intro-active .partner-footer{border-radius:0;padding:16px 20px;padding-bottom:max(16px,env(safe-area-inset-bottom));min-height:58px}.intro-subjects{gap:9px;margin-bottom:20px}.intro-subjects>span{width:34px;height:34px}.intro-subjects .line-icon{width:22px;height:22px}.event-swish{margin-bottom:16px}.event-main{padding-top:34px}.event-badge{margin-bottom:38px}.cap{top:93px;left:13px}.bulb{top:83px;right:13px}}
+@media(max-width:360px){.event-icon{width:37px;height:37px;border-radius:11px}.event-icon .line-icon{width:24px;height:24px}.cap{left:12px;top:95px}.bulb{right:12px;top:90px}.intro-subjects{margin-bottom:16px}.event-description{font-size:17px;margin-bottom:22px}.partner-footer img{width:110px}}
+@media(prefers-reduced-motion:reduce){.intro-subjects>span{transform:none}}
